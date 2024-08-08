@@ -250,12 +250,12 @@ def get_fields():
 
 if __name__ == '__main__':
     # Open the default browser with the specified URL
-    webbrowser.open('http://localhost:7777')
+    webbrowser.open('http://localhost:8888')
 
     if sys.platform.startswith('win'):
         # Run the Flask app using Waitress as the production server on Windows
         from waitress import serve
-        serve(app, host='0.0.0.0', port=7777)
+        serve(app, host='0.0.0.0', port=8888)
     else:
         # Run the Flask app using Gunicorn as the production server on Unix
         from gunicorn.app.base import BaseApplication
@@ -275,7 +275,7 @@ if __name__ == '__main__':
                 return self.application
 
         options = {
-            'bind': '0.0.0.0:7777',  # Bind the server to all network interfaces on port 7777
+            'bind': '0.0.0.0:8888',  # Bind the server to all network interfaces on port 7777
             'workers': 4,  # Number of worker processes
             'threads': 2,  # Number of threads per worker process
             'worker_class': 'sync',  # Worker class (synchronous worker)
