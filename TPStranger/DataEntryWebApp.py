@@ -16,7 +16,8 @@ current_date = now1.strftime("%x")
 ts = now1.strftime("%m%d%Y")
 
 # Store the filename in a global variable
-filename = ts + '-Stranger' + '-TPRecord.xlsx'
+#filename = ts + '-Stranger' + '-TPRecord.xlsx'
+filename = 'Stranger-TPRecord.xlsx'
 
 # Home route to display the form
 @app.route('/')
