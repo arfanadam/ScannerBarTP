@@ -251,7 +251,7 @@ def get_fields():
 
 if __name__ == '__main__':
     # Open the default browser with the specified URL
-    webbrowser.open('http://localhost:8888')
+    #webbrowser.open('http://localhost:8888')
 
     if sys.platform.startswith('win'):
         # Run the Flask app using Waitress as the production server on Windows
