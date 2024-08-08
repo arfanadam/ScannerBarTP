@@ -1,0 +1,34 @@
+This one in private mode
+
+Thanks to Mr. https://github.com/Divinemonk/
+
+#### 1. Using `git`:
+- Clone the repository: `git clone https://github.com/arfanadam/TPStranger.git`
+- Navigate to the project directory: `cd DataEntryWebApp`
+- Install the required dependencies: `pip install -r requirements.txt`
+- Run the application: `python DataEntryWebApp.py`
+- Access the application in your web browser at `http://localhost:7777`
+
+<br>
+
+## Contributing
+
+We welcome contributions from the community! If you encounter any issues or have suggestions for improvements, please open an issue on the project's GitHub repository.
+
+## License
+
+Data Entry Web App is released under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+We would like to express our sincere appreciation to the following projects and their respective communities for their valuable contributions to the development of the Data Entry Web App.
+
+[Flask](https://github.com/pallets/flask), a powerful Python web framework, provided the foundation for our application. Its simplicity, flexibility, and extensive ecosystem enabled us to create a robust and user-friendly web application. We are grateful for the Flask community's continuous support and for making web development in Python a breeze.
+
+[Openpyxl](https://github.com/theorchard/openpyxl), an essential component of our project, greatly enhanced the accessibility and user experience of our application by enabling it to open in the default web browser. We extend our thanks to the OpenXGL community for their efforts in developing this useful tool.
+
+WebBrowser, another crucial component, facilitated seamless interaction between our application and the user's preferred web browser. Its integration allowed for a smoother and more intuitive user experience. We are grateful for the WebBrowser project and its developers' dedication.
+
+[Gunicorn](https://github.com/benoitc/gunicorn), a high-performance WSGI HTTP server, played a vital role in deploying our application in a production environment. Its ability to handle concurrent requests efficiently ensured optimal performance and reliability. We would like to extend our appreciation to the Gunicorn community for their exceptional work.
+
+We would also like to acknowledge the wider open-source community for their continuous support, knowledge sharing, and feedback. The collaborative spirit and contributions from developers around the world have greatly enriched our project.
